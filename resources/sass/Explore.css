@@ -1,0 +1,181 @@
+.title-align{
+
+    font-size: 1.5rem !important;
+}
+
+.imgbanner{
+    max-height: 400px !important;
+    margin-top: 60px;
+}
+
+.follow-btn{
+    color: aliceblue !important;
+}
+.title-container{
+    position: fixed;
+    width: 13rem;
+    height: 12rem;
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+    text-align: center;
+    box-shadow:  0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 2px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.0rem;
+    z-index: 9;
+}
+
+.title-container-logout{
+    position: fixed;
+    width: 13rem;
+    height: 10rem;
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+    text-align: center;
+    box-shadow:  0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 2px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.0rem;
+    z-index: 9;
+}
+
+.desafio{
+    background-image: url(/images/desafio-off.png);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+}
+.conocimiento{
+    background-image: url(/images/conocimiento-off.png);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    transition: all .1s ease-in-out;
+}
+.proyecto{
+    background-image: url(/images/proyecto-off.png);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    transition: all .1s ease-in-out;
+}
+
+.desafio:hover{
+    background-image: url(/images/desafio.png);
+}
+.conocimiento:hover{
+    background-image: url(/images/conocimiento.png);
+}
+
+.proyecto:hover{
+    background-image: url(/images/proyecto.png);
+}
+
+.shadow-container{
+    width: 210px !important;
+    height: auto !important;
+    -webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.38);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.2);
+}
+.w-65{
+    width: 65% !important;
+}
+.icon-size-box{
+    width: 50px;
+    height: 50px;
+}
+.container-text{
+    margin-top: 30px;
+    width: 100%;
+    height: 50%;
+}
+.width-sm{
+    width: 100%
+}
+
+.content-bg{
+
+    width: 65% !important;
+    color: #510d0d !important;
+}
+@media only screen and (max-width: 479px){
+    .title-container { width: 30%;
+                        height: 9rem;}
+    .title-align{
+        font-size: 1rem !important;
+    }
+    .container-text{
+        margin-top: 15px;
+    }
+    .icon-size{
+        width: 50px;
+        height: 70px;
+    }
+    .icon-size-box{
+        width: 25px;
+        height: 25px;
+    }
+    .width-sm{
+        width: 130%
+    }
+    .content-bg{
+
+        width: 90% !important;
+        color: #510d0d !important;
+    }
+    .wrap-size{
+        flex-wrap: wrap !important;
+    }
+    .imgbanner{
+        height: 150px !important;
+    }
+}
+@media(max-width:770px){
+    .content-bg{
+
+        width: 90% !important;
+        color: #510d0d !important;
+    }
+}
+
+
+.jumbotron{
+    margin: 0 !important;
+
+}
+.bg-figures{
+    background-color: rgba(236, 236, 236,0.8) !important;
+}
+.jumbo-figures{
+    width: auto;
+}
+.container-figure{
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.1rem;
+}
+.jumbotron-figures{
+    background-color: #d4d4d4;
+}
+.figure-title{
+    color: #555;;
+    font-size: 3rem;
+    margin-top: 0px;
+    position: inherit;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg-challenge-box{
+    background-image: url(https://i.imgur.com/rkvWozd.jpg);
+    opacity: 0.3;
+}
+
+.bg-publications-box{
+    background-image: url(https://i.imgur.com/8GX38yT.jpg);
+    opacity: 0.3;
+}
+
+.bg-projects-box{
+    background-image: url(https://i.imgur.com/DQd1BzJ.jpg);
+    opacity: 0.3;
+}

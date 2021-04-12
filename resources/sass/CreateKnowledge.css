@@ -1,0 +1,10 @@
+.w-95{
+width: 95%;
+}
+
+input[type='text']{
+    display: inline ;
+}
+.resize-area{
+    resize: vertical !important;
+}

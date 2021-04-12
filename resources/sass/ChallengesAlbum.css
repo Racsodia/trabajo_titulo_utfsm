@@ -1,0 +1,25 @@
+.btn-desafio{
+    background-color: #a6c !important;
+    width: 200px;
+    height: 28px ;
+    transition: all .1s ease-in-out;
+    border: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0rem;
+    color: aliceblue;
+}
+
+.btn-desafio:hover{
+    transform: scale(1.05);
+}
+
+.margin-top{
+    margin-top: 10px !important;
+}
+.hr-bar{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}

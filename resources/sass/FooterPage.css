@@ -1,0 +1,23 @@
+.footer-img{
+
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 202px;
+}
+
+.padding-space-5x{
+    padding: 5px;
+}
+
+.hovergrow{
+    transition: all .1s ease-in-out;
+}
+
+.hovergrow:hover{
+    transform: scale(1.05);
+}
+
+.pl-15{
+    padding-left: 10rem !important;
+}

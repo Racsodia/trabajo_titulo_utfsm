@@ -1,0 +1,38 @@
+
+.modal-title{
+    color: aliceblue !important;
+}
+.header-bar-color{
+    background-color: white !important;
+}
+
+
+.btn-login{
+    background-color: #ffc200 !important;
+    width: 200px;
+    color: rgb(37, 37, 37) !important;
+    font-weight: bolder;
+    margin-right: 35px;
+}
+
+.modal-login{
+    max-width: 25rem !important;
+}
+
+.facebook-btn{
+    width: 100% !important;
+    height: 2rem;
+    background-color: #4e69a2 !important;
+    color: white !important;
+}
+.google-btn{
+    height: 2rem;
+    width: 100% !important;
+    color: #000 !important;
+}
+
+.close-btn{
+    background-color: #e51863 ;
+    widows: 100%  !important;
+    color: aliceblue !important;
+}

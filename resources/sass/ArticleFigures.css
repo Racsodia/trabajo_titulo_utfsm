@@ -1,0 +1,21 @@
+.figure-container{
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+.title-figure-padding{
+    padding-top: 38px;
+    font-weight: initial;
+}
+
+.icon-margin-top{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.icon-size{
+    width: 50px !important;
+    height: 50px !important;
+}

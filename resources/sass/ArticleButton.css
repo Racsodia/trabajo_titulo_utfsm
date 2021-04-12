@@ -1,0 +1,113 @@
+.btn-article{
+    width: 13rem !important;
+    height: 9rem !important;
+    transition: all .1s ease-in-out;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem !important;
+    vertical-align: inherit;
+    text-align: center;
+}
+.btn-article-2{
+    width: 15rem;
+    height: 2rem ;
+    transition: all .1s ease-in-out;
+    margin-left: 0.1rem !important;
+    margin-right: 0.1rem !important;
+    border-radius: 0rem !important;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+.btn-article-3{
+    width: 15rem;
+    height: auto ;
+    transition: all .1s ease-in-out;
+    margin-left: 0.1rem !important;
+    margin-right: 0.1rem !important;
+    border-radius: 0rem !important;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+@media(max-width: 478px){
+    .icon-size{
+        width: 50px;
+        height: 70px;
+    }
+}
+.btn-article:hover{
+    transform: scale(1.03);
+}
+.btn-article-2:hover{
+    transform: scale(1.03);
+}
+.margin-icon{
+    margin-top: 25px;
+}
+.bgicon01 {
+    background: url(https://imageshack.com/a/img922/532/ybGzno.png) no-repeat ;
+    background-size:     contain;
+    background-position: center;
+    height: 5rem;
+}
+
+/* .bg00{
+    background-color: #F6AC55 !important;
+    color: white;
+    line-height: 1.7;
+}
+.bg01{
+
+    background-color: #E51863 !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg02{
+    background-color: #D70093  !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg03{
+    background-color: #ff8e2b !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg04{
+    background-color: #617ab3 !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg05{
+    background-color: #64386B !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg06{
+    background-color: #7cc74ae8 !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg07{
+    background-color: rgb(130, 80, 245) !important;
+    color: white;
+    line-height: 1.7;
+}
+
+.bg08{
+    background-color: #39B4B7 !important;
+    color: white;
+    line-height: 1.7;
+}
+.bg09{
+    background-color: #e51863 !important;
+    color: white;
+    line-height: 1.7;
+} */

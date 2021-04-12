@@ -1,0 +1,22 @@
+.comment-bg{
+    width: 77%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+.pl-5rem{
+    padding-left: 5rem !important;
+
+}
+
+.comment-font{
+    font-size: 0.85rem !important;
+}
+.comment-date-1{
+    font-size: small ;
+    color: rgb(180, 180, 180);
+}
+.comment-date-2{
+    margin-left: 5rem !important;
+    font-size: small ;
+    color: rgb(180, 180, 180);
+}

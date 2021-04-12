@@ -1,0 +1,57 @@
+.logo-container{
+    z-index: 9;
+    margin-top: 70px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+}
+.carousel-indicators{
+    z-index: 9 !important;
+}
+
+.carousel-indicators li{
+    width: 1rem !important;
+    height: 1rem !important;
+    z-index: 9 !important;
+    padding: 0px;
+}
+
+
+ .carousel{
+    height: auto !important;
+} 
+
+
+.mt-6{
+    margin-top: 57px; 
+    /*height: 330px;*/
+    height: auto;
+}
+
+@media (max-width: 479px){
+    .carousel{
+        height: 140px;
+    }
+    .carousel-indicators{
+        top: 100px !important;
+    }
+    .logo-container{
+        height: 50px !important;
+    }
+}
+
+@media(min-width:760px){
+
+    .logo-container{
+        height: 100px !important;
+    }
+}
+
+
+@media(min-width:1200px){
+
+    .logo-container{
+        height: 150px !important;
+    }
+}
+

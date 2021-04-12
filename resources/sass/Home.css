@@ -1,0 +1,161 @@
+
+.img-div-logo{
+  position: absolute;
+  background-color: rgba(255, 255,255, 0.3);
+  top: 100px;
+  width: 200px;
+  height: 156px;
+  z-index: 99;
+}
+
+.section-button{
+  width: 230px;
+  height: 300px;
+  margin: 0px !important;
+  color: black !important;
+}
+
+.m-6{
+  margin: 6rem !important;
+}
+.text-width{
+  width: 600px;
+  margin-top: 2rem !important;
+}
+
+.text-size{
+  font-size: 1.5rem !important;
+}
+.challenge-button{
+  background-image: url(/images/desafio.png);
+  border-radius: 50% !important;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white !important;
+  background-position: center;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.publications-button{
+
+  background-image: url(/images/conocimiento.png);
+  border-radius: 50% !important;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-color: white !important;
+  background-position: center;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.projects-button{
+  background-image: url(/images/proyecto.png);
+  border-radius: 50% !important;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-color: white !important;
+  background-position: center;
+  width: 150px !important;
+  height: 150px !important;
+}
+@media(min-width:1300px){
+  .challenge-button{
+    background-image: url(/images/desafio.png);
+    border-radius: 50% !important;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: white !important;
+    background-position: center;
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .publications-button{
+
+    background-image: url(/images/conocimiento.png);
+    border-radius: 50% !important;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-color: white !important;
+    background-position: center;
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .projects-button{
+    background-image: url(/images/proyecto.png);
+    border-radius: 50% !important;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-color: white !important;
+    background-position: center;
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+ @media(max-width: 478px){
+  .text-size{
+    font-size: 1rem !important;
+  }
+  .text-width{
+    width: 330px;
+  }
+} 
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.jumbotron{
+    padding: 10px;
+    border: 0px;
+    box-shadow: 0;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

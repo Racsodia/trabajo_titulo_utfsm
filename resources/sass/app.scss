@@ -1,0 +1,38 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@font-face{
+  font-family: gobCL_regular;
+  src: url('/fonts/vendor/gobCL/gobCL_Regular.otf');
+}
+
+body{
+  font-family: gobCL_regular;
+}
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.scrollDiv {
+    max-height: 150px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+button.btn.btn-default.Ripple-parent.follow-btn.unliked {
+    background-color: #64386b!important;
+}
+
+.acotacion {
+  font-size: 10px
+}
