@@ -5,3 +5,9 @@ Este proyecto fue desarrollado por Kauel para el Ministerio de Salud, comenzando
 Las personas involucradas en este proyecto fueron:
 
 - [Óscar Aguilera](mailto:oscar.aguilera@kauel.com)
+
+Para este proyecto se utilizaron las siguienes herramientas: 
+  - Laravel
+  - ReacjJs
+  - GraphQL
+  
